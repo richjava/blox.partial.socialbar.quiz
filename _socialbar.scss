@@ -1,0 +1,8 @@
+.social-section {
+  @extend .bg-brand-gradient;
+  @include border-radii(50px);
+
+  @include media-breakpoint-up(md) {
+    @include border-radii(100px);
+  }
+}
